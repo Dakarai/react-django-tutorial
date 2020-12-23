@@ -86,7 +86,7 @@ export default class CreateRoomPage extends Component{
                     <TextField
                         required={true}
                         type="number"
-                        onChamge={this.handleVotesChange}
+                        onChange={this.handleVotesChange}
                         defaultValue={this.defaultVotes}
                         inputProps={{
                             min: 1,
